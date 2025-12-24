@@ -307,13 +307,13 @@ networks:
         - subnet: 173.17.0.0/16
 
 volumes:
-  config-data: {}
-  shard1-mongodb1-data: {}  
-  shard1-mongodb2-data: {}
-  shard1-mongodb3-data: {}
-  shard2-mongodb1-data: {}
-  shard2-mongodb2-data: {}
-  shard2-mongodb3-data: {}
+  config-data:
+  shard1-mongodb1-data:  
+  shard1-mongodb2-data:
+  shard1-mongodb3-data:
+  shard2-mongodb1-data:
+  shard2-mongodb2-data:
+  shard2-mongodb3-data:
   redis_1_data: {}
   redis_2_data: {}
   redis_3_data: {}
