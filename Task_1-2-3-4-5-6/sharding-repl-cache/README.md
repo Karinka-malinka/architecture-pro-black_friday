@@ -18,7 +18,7 @@ docker compose up -d
 4. Инициализируем и заполняем redis и mongodb данными (возможно понадобиться запустить скрипт еще раз, так как почему-то mongos_router при первом запуске в 9 из 10 случаем недоступен, хотя запущен)
 
 ```shell
-./scripts/mongo-init.sh
+./scripts/mongo-redis-init.sh
 ```
 ## Как проверить
 
